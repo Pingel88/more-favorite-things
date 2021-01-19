@@ -7,8 +7,9 @@ $(document).ready(function() {
     newFavoriteThings.push(favoriteThings[1], favoriteThings[0], favoriteThings[2]);
 
     $("#new-favorite-things").show();
+    $("#new-favorite-thing1").text(newFavoriteThings[0]);
+    $("#new-favorite-thing2").text(newFavoriteThings[1]);
+    $("#new-favorite-thing3").text(newFavoriteThings[2]);
 
-
-    $(".language-result").text("C#");
   });
 });
